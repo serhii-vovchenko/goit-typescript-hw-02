@@ -1,0 +1,6 @@
+.wrapper {
+    position: fixed;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
