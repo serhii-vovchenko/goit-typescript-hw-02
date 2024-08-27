@@ -1,20 +1,13 @@
-import s from './Loader.module.css'
-import ThreeCircles from 'react-spinners/PropagateLoader'
+import s from './Loader.module.css';
+import { PropagateLoader } from 'react-spinners';
+import { FC } from 'react';
 
-const Loader = () => {
+const Loader: FC = () => {
 	return (
 		<div className={s.wrapper}>
-			<ThreeCircles
-				visible={true}
-				height='100'
-				width='100'
-				color='blue'
-				ariaLabel='three-circles-loading'
-				wrapperStyle={{}}
-				wrapperClass=''
-			/>
+			<PropagateLoader height="100" width="100" color="blue" />
 		</div>
-	)
-}
+	);
+};
 
-export default Loader
+export default Loader;
