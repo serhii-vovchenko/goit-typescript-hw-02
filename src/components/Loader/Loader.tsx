@@ -5,7 +5,7 @@ import { FC } from 'react';
 const Loader: FC = () => {
 	return (
 		<div className={s.wrapper}>
-			<PropagateLoader height="100" width="100" color="blue" />
+			<PropagateLoader color="blue" />
 		</div>
 	);
 };
